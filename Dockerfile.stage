@@ -15,4 +15,8 @@ RUN yarn build
 
 EXPOSE 1337
 
+RUN apt-get update && apt-get install -y wget
+
+HEALTHCHECK --interval=20s --timeout=10s --start-period=30s --retries=6 CMD wget -q --method=HEAD localhost:1337
+
 CMD ["yarn", "start"]
