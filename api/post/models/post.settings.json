@@ -43,6 +43,11 @@
     },
     "subtitle": {
       "type": "string"
+    },
+    "text_image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text-image.text-image"
     }
   }
 }
