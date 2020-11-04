@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_text_image_text_images",
+  "info": {
+    "name": "text_image",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "text_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
