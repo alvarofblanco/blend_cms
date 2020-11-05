@@ -38,8 +38,8 @@
       "default": false
     },
     "category": {
-      "model": "category",
-      "via": "posts"
+      "via": "posts",
+      "model": "category"
     },
     "subtitle": {
       "type": "string"
