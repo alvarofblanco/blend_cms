@@ -20,8 +20,11 @@
       "type": "string"
     },
     "posts": {
-      "via": "category",
-      "collection": "post"
+      "collection": "post",
+      "via": "category"
+    },
+    "cardName": {
+      "type": "string"
     }
   }
 }
