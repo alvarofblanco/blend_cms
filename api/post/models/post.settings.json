@@ -38,11 +38,8 @@
       "default": false
     },
     "category": {
-      "via": "posts",
-      "model": "category"
-    },
-    "subtitle": {
-      "type": "string"
+      "model": "category",
+      "via": "posts"
     },
     "text_image": {
       "type": "component",
