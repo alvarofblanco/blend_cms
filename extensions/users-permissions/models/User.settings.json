@@ -54,8 +54,14 @@
       "configurable": false
     },
     "posts": {
-      "via": "user",
-      "collection": "post"
+      "collection": "post",
+      "via": "user"
+    },
+    "ig_handle": {
+      "type": "string"
+    },
+    "displayName": {
+      "type": "string"
     }
   }
 }
