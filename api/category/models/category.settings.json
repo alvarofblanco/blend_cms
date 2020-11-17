@@ -22,6 +22,9 @@
     "posts": {
       "via": "category",
       "collection": "post"
+    },
+    "cardName": {
+      "type": "string"
     }
   }
 }

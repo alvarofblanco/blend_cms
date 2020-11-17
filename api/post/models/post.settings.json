@@ -18,9 +18,9 @@
       "required": true
     },
     "user": {
+      "via": "posts",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "posts"
+      "model": "user"
     },
     "cover": {
       "model": "file",
@@ -41,13 +41,16 @@
       "model": "category",
       "via": "posts"
     },
-    "subtitle": {
-      "type": "string"
-    },
     "text_image": {
       "type": "component",
       "repeatable": true,
       "component": "text-image.text-image"
+    },
+    "copete": {
+      "type": "text"
+    },
+    "hashtags": {
+      "type": "string"
     }
   }
 }
