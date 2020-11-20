@@ -13,10 +13,6 @@
       "type": "string",
       "required": true
     },
-    "body": {
-      "type": "richtext",
-      "required": true
-    },
     "user": {
       "plugin": "users-permissions",
       "model": "user",
@@ -56,6 +52,9 @@
       "type": "component",
       "repeatable": true,
       "component": "rich-text.rich-text"
+    },
+    "body": {
+      "type": "richtext"
     }
   }
 }
