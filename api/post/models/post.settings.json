@@ -18,9 +18,9 @@
       "required": true
     },
     "user": {
-      "via": "posts",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "posts"
     },
     "cover": {
       "model": "file",
@@ -51,6 +51,11 @@
     },
     "hashtags": {
       "type": "string"
+    },
+    "richText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rich-text.rich-text"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_rich_text_rich_texts",
+  "info": {
+    "name": "rich-text",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "richtext"
+    },
+    "llamada": {
+      "type": "string"
+    }
+  }
+}
