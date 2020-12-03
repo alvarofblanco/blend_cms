@@ -19,7 +19,8 @@
       "via": "posts"
     },
     "title_id": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "cover": {
       "model": "file",
