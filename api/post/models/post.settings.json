@@ -56,9 +56,6 @@
       "type": "component",
       "repeatable": true,
       "component": "rich-text.rich-text"
-    },
-    "body": {
-      "type": "richtext"
     }
   }
 }
