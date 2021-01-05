@@ -20,7 +20,8 @@
     },
     "title_id": {
       "type": "string",
-      "unique": true
+      "unique": true,
+      "required": true
     },
     "cover": {
       "model": "file",
