@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "postitions",
+  "info": {
+    "name": "Position"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "code": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "posts": {
+      "via": "cover_position",
+      "collection": "post"
+    }
+  }
+}
