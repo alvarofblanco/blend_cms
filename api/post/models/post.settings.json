@@ -61,6 +61,12 @@
     "cover_position": {
       "model": "postition",
       "via": "posts"
+    },
+    "publication_date": {
+      "type": "string",
+      "required": false,
+      "maxLength": 10,
+      "minLength": 10
     }
   }
 }
