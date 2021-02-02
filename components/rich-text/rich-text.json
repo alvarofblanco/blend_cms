@@ -11,6 +11,12 @@
     },
     "llamada": {
       "type": "string"
+    },
+    "spotify": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
     }
   }
 }
